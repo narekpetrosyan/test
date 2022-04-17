@@ -1,13 +1,10 @@
-import React from 'react';
+import React, { memo } from "react";
 import clsx from "clsx";
 
-import styles from "./ShadowBlock.module.css"
+import styles from "./ShadowBlock.module.css";
 
-export const ShadowBlock = ({children,className}) => {
-    return (
-        <div className={clsx(styles.ShadowBlock,className)}>
-            {children}
-        </div>
-    );
-};
+const ShadowBlock = memo(({ children, className }) => {
+  return <div className={clsx(styles.ShadowBlock, className)}>{children}</div>;
+});
 
+export default ShadowBlock;

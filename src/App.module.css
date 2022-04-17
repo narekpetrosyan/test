@@ -1,0 +1,25 @@
+.AppWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ProsCons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Title {
+  height: 40px;
+}
+
+.ProsConsItems {
+  padding: 15px 8px;
+  gap: 10px;
+  height: 500px;
+  max-height: 300px;
+  overflow-y: auto;
+  justify-content: flex-start;
+}

@@ -1,0 +1,8 @@
+.ShadowBlock{
+  box-shadow: 3px 0px 11px 1px rgba(0,0,0,0.12);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

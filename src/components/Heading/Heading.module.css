@@ -1,0 +1,13 @@
+.Heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0;
+}
+
+.HeadingItem {
+    color: #8d21ff;
+    text-transform: capitalize;
+    letter-spacing: 0.9px;
+    font-size: 24px;
+}

@@ -1,0 +1,20 @@
+.TextInputWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+    padding: 2px 8px;
+}
+
+.TextInput {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    box-shadow: 3px 0px 11px 1px rgb(0 0 0 / 12%);
+    outline: none;
+}
+
+.TextInput:focus {
+    box-shadow:inset 3px 0px 11px 1px rgb(0 0 0 / 12%);
+}

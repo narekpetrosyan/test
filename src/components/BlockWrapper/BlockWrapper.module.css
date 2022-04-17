@@ -1,0 +1,11 @@
+.BlcokWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.BlcokWrapperChildren {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
